@@ -1,0 +1,42 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  width: 1080px;
+  margin: 0 auto;
+  font-family: Verdana, sans-serif;
+}
+
+.container {
+  width: 1080px;
+  height: 400px;
+  background: url("../img/mainbg.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.mainbg{
+  font-weight: normal;
+  font-size: 35px;
+  color: #fff;
+  padding: 30px;
+  line-height: 500px;
+}
+
+
+.table th {
+  border: solid #614b2b;
+  background-color: #6d5838;
+  color: whitesmoke;
+  padding: 5px 10px;
+}
+/* 追加データ */
+.table td {
+  border: solid #6d5838;
+  padding: 0 3px;
+  text-align: center;
+}
+
+

@@ -1,0 +1,119 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 1080px;
+  margin: 0 auto;
+  font-size: 16px;
+  font-family: Verdana, sans-serif;
+  background-color: #333;
+  color: #fff;
+}
+
+label{
+  color: 	#ACD6FF;
+}
+
+.container {
+  width: 1080px;
+  height: 400px;
+  background: url("../img/mainbg.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.mainbg{
+  font-weight: normal;
+  font-size: 35px;
+  color: #fff;
+  padding: 30px;
+  line-height: 500px;
+}
+
+.form{
+  width: 400px;
+  margin: 0 auto 60px;
+}
+
+h2{
+  font-weight: normal;
+  font-size: 24px;
+  text-align: center;
+  margin: 60px auto;
+}
+
+.form input{
+  padding: 12px;
+  width: 100%;
+  margin-bottom: 18px;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.room_type input{
+  width: 35px;
+}
+
+.room{
+  border: 1px solid #fff;
+  margin-bottom: 25px;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 10px;
+}
+
+.roomtitle{
+  color: 	#ACD6FF;
+}
+
+.room label{
+  color: #fff;
+}
+
+select{
+  padding: 12px;
+  width: 100%;
+  margin-bottom: 18px;
+  color: #888;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+textarea{
+  width: 100%;
+  margin-bottom: 18px;
+  color: #888;
+  font-size: 16px;
+  border-radius: 5px;
+  resize: none;
+}
+
+
+.btn{
+  padding: 12px;
+  width: 100%;
+  margin-bottom: 18px;
+  font-size: 16px;
+  border-radius: 5px;
+  background: #08c;
+  color: #fff;
+}
+
+.btn:hover{
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+
+
+
+
+footer p {
+  text-align: center;
+  font-size: 14px;
+  margin-bottom: 60px;
+  color: gray;
+}
