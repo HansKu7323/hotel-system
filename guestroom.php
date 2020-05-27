@@ -21,10 +21,10 @@
     <!------ nav ------->
     <nav>
       <ul class="nav_list">
-        <li class="nav_item"><a href="index.php">Top</a></li>
-        <li class="nav_item"><a href="">施設.サービス</a></li>
-        <li class="nav_item"><a href="">レストラン</a></li>
-        <li class="nav_item"><a href="">アクセス</a></li>
+        <li class="nav_item"><a href="index.php">Hans Hotel</a></li>
+        <li class="nav_item"><a href="equipment.php">施設.サービス</a></li>
+        <li class="nav_item"><a href="restaurant.php">レストラン</a></li>
+        <li class="nav_item"><a href="access.php">アクセス</a></li>
         <li class="nav_item"><a href="booking.php">Booking</a></li>
       </ul>
     </nav>
@@ -113,10 +113,10 @@
       <!------- na ------->
       <nav>
           <ul class="foot_nav_list">
-            <li class="nav_item"><a href="index.php">Top</a></li>
-            <li class="nav_item"><a href="">施設.サービス</a></li>
-            <li class="nav_item"><a href="">レストラン</a></li>
-            <li class="nav_item"><a href="">アクセス</a></li>
+            <li class="nav_item"><a href="index.php">Hans Hotel</a></li>
+            <li class="nav_item"><a href="equipment.php">施設.サービス</a></li>
+            <li class="nav_item"><a href="restaurant.php">レストラン</a></li>
+            <li class="nav_item"><a href="access.php">アクセス</a></li>
             <li class="nav_item"><a href="booking.php">Booking</a></li>
           </ul>
       </nav>

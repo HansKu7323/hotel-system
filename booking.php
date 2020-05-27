@@ -10,7 +10,7 @@
 </head>
 
 <body>
-  <!--------------------- header ---------------------------->
+  <!--------- header ---------->
   <div class="container">
     <header>
       <h1>Hans Hotel Japan</h1>
@@ -18,23 +18,24 @@
       <p>Tel 0555-62-3901　　Fax 0555-62-3902</p>
     </header>
 
-     <!------------------------ nav --------------------------->
+     <!---------- nav -------->
      <nav>
         <ul class="nav_list">
+        <li class="nav_item"><a href="index.php">Hans Hotel</a></li>
           <li class="nav_item"><a href="guestroom.php">客室情報</a></li>
-          <li class="nav_item"><a href="">施設.サービス</a></li>
-          <li class="nav_item"><a href="">レストラン</a></li>
-          <li class="nav_item"><a href="">アクセス</a></li>
-          <li class="nav_item"><a href="index.php">Top</a></li>
+          <li class="nav_item"><a href="equipment.php">施設.サービス</a></li>
+          <li class="nav_item"><a href="restaurant">レストラン</a></li>
+          <li class="nav_item"><a href="access.php">アクセス</a></li>
+          
         </ul>
       </nav>
  
     
-    <!---------------- font part --------------------->
+    <!--------- form part -------->
     <section class="form">
       <form method="post" action="booking_insert.php" >
 
-      <!------------- guest data -------------->
+      <!--------- guest data ------------>
         <section class="guest data"> 
           <h2>BOOKING & CONTACT</h2>
           <hr>
@@ -62,7 +63,7 @@
           </ul>
         </section>
 
-        <!------------- hotel need data ----------------->
+        <!------ hotel need data ------->
         <section class="details">
               <h2>DETAILS</h2>
               <hr>
@@ -80,17 +81,18 @@
                   <input type="date" name="depart" id="depart">
                 </li>
 
+                <!------- radio parts ------->
                 <li class="roomtitle">Room type</li>
                 <li class="room_type">
                   <div class="room">
-                    <!-- <label for="single">SNG</label> -->
-                    SNG<input type="radio" name="room_type" value="single" id="single">
-                    <!-- <label for="twin" >TWN</label> -->
-                    TWN<input type="radio" name="room_type" value="twin" id="twin" checked="checked">
-                    <!-- <label for="dbl">DBL</label> -->
-                    DBL<input type="radio" name="room_type" value="dbl" id="dbl">
-                    <!-- <label for="quad">QUAD</label> -->
-                    QUAD<input type="radio" name="room_type" value="quad" id="quad">
+                    <label for="single">SNG</label>
+                    <input type="radio" name="room_type" value="single" id="single">
+                    <label for="twin" >TWN</label>
+                    <input type="radio" name="room_type" value="twin" id="twin" checked="checked">
+                    <label for="dbl">DBL</label>
+                    <input type="radio" name="room_type" value="dbl" id="dbl">
+                    <label for="quad">QUAD</label>
+                    <input type="radio" name="room_type" value="quad" id="quad">
                   </div>
                 </li>
 
@@ -104,6 +106,27 @@
         </section>
       </form>
     </section>
+
+    <!------- footer nav ------->
+    <nav>
+      <ul class="nav_list">
+        <li class="nav_item">
+          <a href="index.php">Hans Hotel</a>
+        </li>
+        <li class="nav_item">
+          <a href="guestroom.php">客室情報</a>
+        </li>
+        <li class="nav_item">
+          <a href="equipment.php">施設.サービス</a>
+        </li>
+        <li class="nav_item">
+          <a href="restaurant">レストラン</a>
+        </li>
+        <li class="nav_item">
+          <a href="access.php">アクセス</a>
+        </li>
+      </ul>
+    </nav>
 
     <footer>
       <p>(c) Hans Hotel.com</p>
