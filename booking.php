@@ -47,8 +47,6 @@
         <input type="date" name="arrive" id="arrive"></li>
         <li><label for="depart">Depart</label>
         <input type="date" name="depart" id="depart"></li>
-
-
         
         <li class="roomtitle">Room type</li>
         <li class="room_type">
@@ -57,8 +55,8 @@
             <input type="radio" name="room_type" value="single" id="single">
             <label for="twin">TWN</label>
             <input type="radio" name="room_type" value="twin" id="twin">
-            <label for="trp">TRP</label>
-            <input type="radio" name="room_type" value="triple" id="trp">
+            <label for="dbl">DBL</label>
+            <input type="radio" name="room_type" value="dbl" id="dbl">
             <label for="quad">QUAD</label>
             <input type="radio" name="room_type" value="quad" id="quad">
           </div>

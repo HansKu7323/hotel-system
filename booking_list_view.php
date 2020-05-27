@@ -35,17 +35,6 @@ if($status==false){
     '<td>'.$result["indate"].'</td>'.
 
     '</tr>';
- 
-    // $viewName .= $result["name"];
-    // $viewEmail .= $result["email"];
-    // $viewTelephone .= $result["telephone"];
-    // $viewCountry .= $result["country"];
-    // $viewPeople .= $result["people"];
-    // $viewArrive .= $result["arrive"];
-    // $viewDepart .= $result["depart"];
-    // $viewRomm .= $result["romm"];
-    // $viewOthers .= $result["others"];
-    // $viewIndate .= $result["indate"];
   }
 }
 ?>
@@ -56,7 +45,6 @@ if($status==false){
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- <title>Hans Hotel東京</title> -->
   <title>Hans Hotel Japan</title>
   <link rel="stylesheet" href="css/reset.css">
   <link href="css/liststyle.css?v=<?php echo time(); ?>" rel="stylesheet" type="text/css" />

@@ -3,13 +3,13 @@
 }
 
 body{
-  width: 1080px;
+  width: 800px;
   margin: 0 auto;
   font-family: Verdana, sans-serif;
 }
 
 .container {
-  width: 1080px;
+  width: 800px;
   height: 400px;
   background: url("../img/mainbg.jpg");
   background-position: center;
