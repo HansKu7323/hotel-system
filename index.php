@@ -9,7 +9,7 @@
 </head>
 
 <body>
-  <!--------------------- header ---------------------------->
+  <!-------- header ---------->
   <div class="container">
     <header>
           <h1>Hans Hotel Japan</h1>
@@ -29,7 +29,7 @@
         </ul>
       </nav>
 
-    <!------------------------ slider ----------------------->
+    <!---------- slider --------->
       <div id="slider">
         <ul class="slides">
           <li class="slide"><img src="img/mainbg.jpg" alt=""></li>
@@ -46,7 +46,7 @@
         </ul>
       </div>
 
-  <!------------------------ textbox ------------------------->
+  <!------------ textbox -------->
     <div class="text_box">
       <p>ようこそ、日本一！世界一！富士山に近い湖、山中湖へ</p>
       <p>山中湖畔に新しく誕生したホテル“SUN PLAZA HOTEL 富士山中湖</p>
@@ -54,10 +54,10 @@
       <p>日本式の大浴場と露天風呂を備え、美味しい食事とおもてなしで旅の疲れを癒します。</p>
     </div>
 
-  <!------------------------ nav --------------------------->
-    <hr>
+  <!----------- nav ------------>
+
       <nav>
-          <ul class="nav_list">
+          <ul class="foot_nav_list">
             <li class="nav_item"><a href="guestroom.php">客室情報</a></li>
             <li class="nav_item"><a href="">施設.サービス</a></li>
             <li class="nav_item"><a href="">レストラン</a></li>
@@ -65,9 +65,8 @@
             <li class="nav_item"><a href="booking.php">Booking</a></li>
           </ul>
       </nav>
-    <hr>
   
-  <!------------------------ footer -------------------------->
+  <!--------- footer ---------->
     <footer>
       <p>(c) Hans Hotel.com</p>
     </footer>

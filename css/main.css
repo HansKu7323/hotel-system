@@ -39,11 +39,14 @@ header p{
 margin: 25px 0;
 }
 
+.nav_item>a{
+  color: #333;
+  text-decoration: none;
+}
 
 
-/* ---------------
-------slider -----
----------------- */
+
+/* ------ slider -------- */
 #slider{
   margin: 0 auto ;
   width: 720px;
@@ -66,7 +69,11 @@ margin: 25px 0;
   height: 400px;
 }
 
-/* 紹介 */
+img{
+  width: 100%;
+}
+
+/*------- 紹介 -------*/
 .text_box{
   text-align: center;
   line-height: 26px;
@@ -74,9 +81,15 @@ margin: 25px 0;
 }
 
 
-/*--------------
------ footer----
----------------*/
+.foot_nav_list{
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px #333 solid;
+  border-bottom: 1px #333 solid;
+}
+
+
+/*-------- footer -------*/
 footer p {
   text-align: center;
   font-size: 14px;
@@ -85,14 +98,19 @@ footer p {
 }
 
 
-/* response */
+/*-------- response ---------*/
 
+/*------- telephon -------*/
 @media screen and (max-width: 500px){
   .container{
-    width: 100%;
+    width: 90%;
   }
 
   .nav_list{
+    display: block;
+  }
+
+  .foot_nav_list{
     display: block;
   }
 
@@ -100,11 +118,22 @@ footer p {
     font-size: 14px;
   }
 
+  #slider{
+    width: 100%;
+  }
+
+  img{
+    width: 100%;
+  }
 }
 
-@media screen and (max-width: 1024px){
+/*------- tablet -------*/
+@media screen and (max-width: 800px){
   .container{
-    width: 100%;
+    width: 90%;
     }
- 
+
+    #slider{
+      width: 100%;
+    }
 }
