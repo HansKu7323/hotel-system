@@ -14,7 +14,11 @@ body {
   margin: 0 auto;
 }
 
-/*----- header -----*/
+p{
+  line-height: 1.75em;
+}
+
+/*-------- header -------*/
 header{
   text-align: center;
   background-color: #333;
@@ -27,11 +31,11 @@ h1{
   font-weight: bold;
   margin-bottom: 20px;
 }
+
 header p{
   margin-bottom: 10px;
 }
 
-/*----- nav -----*/
 .nav_list{
   display: flex;
   justify-content: space-between;
@@ -47,56 +51,39 @@ margin: 25px 0;
 }
 
 
-/*----- main -----*/
+/*------- main ------*/
 h2{
   font-size: 35px;
   font-weight: normal;
-}
-
-.link_bar{
-  display: flex;
   margin-bottom: 30px;
-  flex-wrap: wrap;
-}
-.link_item{
-  margin-right: 30px;
 }
 
-/*----- section -----*/
-section{
-  margin-bottom: 20px;
-}
 h3{
   font-size: 25px;
   font-weight: normal;
   margin-bottom: 20px;
 }
-.imgbox{
-  width: 300px;
-}
-
-.imgbox>img{
-  width: 100%;
-}
 
 .mainbox{
   display: flex;
+  justify-content: space-between;
   flex-wrap: wrap;
 }
 .mainbox_item{
   margin-right: 20px;
+  width: 480px;
 }
-
+.mainbox_item>img{
+  width: 100%;
+}
 table{
   background: #ffeed1;
-  width: 600px;
-  height: 50px;
 }
 
 th{
   border: solid #333;
   padding: 5px 10px;
-  width: 150px;
+  width:  100px;
   padding-left: 10px;
   font-weight: bold;
   box-sizing: border-box;
@@ -106,12 +93,39 @@ th{
 td{
   border: solid #333;
   padding: 5px 10px;
+  width: 380px;
   padding-left: 10px;
   font-weight: bold;
   box-sizing: border-box
 }
 
-/*------- foot_nav_list -------*/
+.imgbox>img{
+  width: 100%;
+}
+
+section{
+  margin-bottom: 50px;
+}
+
+
+.img_ul{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.img_item{
+  width: 320px;
+  margin-bottom: 20px;
+}
+
+.img_item>img{
+  width: 100%;
+}
+
+
+
+/*------- foot_nav -------*/
 .foot_nav_list{
   display: flex;
   justify-content: space-between;
@@ -129,10 +143,9 @@ footer p {
 }
 
 
-
 /*-------- response ---------*/
 
-/*------- telephon -------*/
+/*------- telephone -------*/
 @media screen and (max-width: 500px){
   .container{
     width: 90%;
@@ -150,18 +163,6 @@ footer p {
     font-size: 14px;
   }
 
- .link_bar{
-   display: block;
- }
-
- .link_item{
-  margin-bottom: 10px;
- }
-
-  table{
-    width: 300px;
-  }
-
 }
 
 /*------- tablet -------*/
@@ -169,5 +170,5 @@ footer p {
   .container{
     width: 90%;
     }
-
+    
 }

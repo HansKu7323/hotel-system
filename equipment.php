@@ -127,13 +127,23 @@
 
     <!-----------foot nav ------------>
       <nav>
-          <ul class="foot_nav_list">
-            <li class="nav_item"><a href="guestroom.php">客室情報</a></li>
-            <li class="nav_item"><a href="index.php">Hans Hotel</a></li>
-            <li class="nav_item"><a href="restaurant.php">レストラン</a></li>
-            <li class="nav_item"><a href="access.php">アクセス</a></li>
-            <li class="nav_item"><a href="booking.php">Booking</a></li>
-          </ul>
+        <ul class="foot_nav_list">
+          <li class="nav_item">
+            <a href="index.php">Hans Hotel</a>
+          </li>
+          <li class="nav_item">
+            <a href="guestroom.php">客室情報</a>
+          </li>
+          <li class="nav_item">
+            <a href="restaurant.php">レストラン</a>
+          </li>
+          <li class="nav_item">
+            <a href="access.php">アクセス</a>
+          </li>
+          <li class="nav_item">
+            <a href="booking.php">Booking</a>
+          </li>
+        </ul>
       </nav>
   
     <!--------- footer ---------->

@@ -18,7 +18,7 @@
           <p>Tel 0555-62-3901　　Fax 0555-62-3902</p>
     </header>
   
-    <!------------------------ nav --------------------------->
+    <!------------- nav ------------->
       <nav>
         <ul class="nav_list">
           <li class="nav_item"><a href="guestroom.php">客室情報</a></li>
