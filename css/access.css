@@ -3,6 +3,7 @@
   box-sizing: border-box;
 }
 
+
 body {
   font-size: 16px;
   font-family: Verdana, sans-serif;
@@ -13,7 +14,6 @@ body {
   width: 1000px;
   margin: 0 auto;
 }
-
 
 /*----- header -----*/
 header{
@@ -32,8 +32,9 @@ header p{
   margin-bottom: 10px;
 }
 
+/*----- nav ------*/
 
-/*----- nav -----*/
+
 .nav_list{
   display: flex;
   justify-content: space-between;
@@ -48,74 +49,21 @@ margin: 25px 0;
   text-decoration: none;
 }
 
-
-/*----- main -----*/
+/*----- maptext ----*/
 h2{
   font-size: 35px;
   font-weight: normal;
 }
 
-.link_bar{
-  display: flex;
-  margin-bottom: 30px;
-  flex-wrap: wrap;
-}
-.link_item{
-  margin-right: 30px;
+/*----- map -----*/
+#target {
+  width: 1000px;
+  height: 500px;
 }
 
 
-/*----- section -----*/
-section{
-  margin-bottom: 20px;
-}
-h3{
-  font-size: 25px;
-  font-weight: normal;
-  margin-bottom: 20px;
-}
-.imgbox{
-  width: 300px;
-}
 
-.imgbox>img{
-  width: 100%;
-}
-
-.mainbox{
-  display: flex;
-  flex-wrap: wrap;
-}
-.mainbox_item{
-  margin-right: 20px;
-}
-
-table{
-  background: #ffeed1;
-  width: 600px;
-  height: 50px;
-}
-
-th{
-  border: solid #333;
-  padding: 5px 10px;
-  width: 150px;
-  padding-left: 10px;
-  font-weight: bold;
-  box-sizing: border-box;
-  height: 50px;
-}
-
-td{
-  border: solid #333;
-  padding: 5px 10px;
-  padding-left: 10px;
-  font-weight: bold;
-  box-sizing: border-box
-}
-
-
-/*------- foot_nav_list -------*/
+/*------- foot_nav -------*/
 .foot_nav_list{
   display: flex;
   justify-content: space-between;
@@ -165,8 +113,14 @@ footer p {
     width: 300px;
   }
 
+  /*----- map -----*/
+  #target {
+    width: 350px;
+    height: 200px;
+  }
+
 }/* 削除だめ */
-/* 削除だめ */
+
 
 /*-------- response -------*/
 /*------- tablet -------*/
@@ -175,4 +129,10 @@ footer p {
     width: 90%;
     }
 
-}/* 削除だめ */
+    /*----- map -----*/
+  #target {
+    width: 700px;
+    height: 450px;
+  }
+
+  }/* 削除だめ */

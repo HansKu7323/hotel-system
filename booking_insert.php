@@ -44,7 +44,7 @@ if($status==false){
   exit("QueryError:".$error[2]);
 }else{
   //５．index.phpへリダイレクト 書くときにLocation: in この:　のあとは半角スペースがいるので注意！！
-  header("Location: booking_list_view.php");
+  header("Location: index.php");
   exit;
 }
 ?>

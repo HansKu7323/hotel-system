@@ -24,7 +24,7 @@
           <li class="nav_item"><a href="index.php">Hans Hotel</a></li>
           <li class="nav_item"><a href="guestroom.php">客室情報</a></li>
           <li class="nav_item"><a href="restaurant.php">レストラン</a></li>
-          <li class="nav_item"><a href="acces.php">アクセス</a></li>
+          <li class="nav_item"><a href="access.php">アクセス</a></li>
           <li class="nav_item"><a href="booking.php">Booking</a></li>
         </ul>
       </nav>

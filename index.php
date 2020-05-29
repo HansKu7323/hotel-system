@@ -30,7 +30,7 @@
       </nav>
 
     <!---------- slider --------->
-      <div id="slider">
+    <div id="slider">
         <ul class="slides">
           <li class="slide"><img src="img/mainbg.jpg" alt=""></li>
           <li class="slide"><img src="img/pic00.JPG" alt=""></li>

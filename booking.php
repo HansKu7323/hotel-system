@@ -33,7 +33,7 @@
     
     <!--------- form part -------->
     <section class="form">
-      <form method="post" action="booking_insert.php" >
+      <form method="post" action="index.php" >
 
       <!--------- guest data ------------>
         <section class="guest data"> 

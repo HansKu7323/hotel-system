@@ -3,6 +3,7 @@
   box-sizing: border-box;
 }
 
+
 body {
   font-size: 16px;
   font-family: Verdana, sans-serif;
@@ -14,6 +15,8 @@ body {
   margin: 0 auto;
 }
 
+
+/*----- header -----*/
 header{
   text-align: center;
   background-color: #333;
@@ -30,6 +33,8 @@ header p{
   margin-bottom: 10px;
 }
 
+
+/*------ nav -----*/
 .nav_list{
   display: flex;
   justify-content: space-between;
@@ -40,10 +45,9 @@ margin: 25px 0;
 }
 
 .nav_item>a{
-  color: #333;
+  color: blue;
   text-decoration: none;
 }
-
 
 
 /* ------ slider -------- */
@@ -69,9 +73,6 @@ margin: 25px 0;
   height: 400px;
 }
 
-img{
-  width: 100%;
-}
 
 /*------- 紹介 -------*/
 .text_box{
@@ -81,6 +82,7 @@ img{
 }
 
 
+/*------ foot_nav -----*/
 .foot_nav_list{
   display: flex;
   justify-content: space-between;
@@ -99,8 +101,7 @@ footer p {
 
 
 /*-------- response ---------*/
-
-/*------- telephon -------*/
+/*------- telephone -------*/
 @media screen and (max-width: 500px){
   .container{
     width: 90%;
@@ -118,15 +119,37 @@ footer p {
     font-size: 14px;
   }
 
+/* ------ slider -------- */
   #slider{
+    margin: 0 auto ;
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+  }
+
+  #slider .slides{
+    display: block;
+    width: 4125px;
+    height: 400px;
+    margin: 0;
+    padding: 0;
+  }
+
+  #slider .slide{
+    float: left;
+    list-style: none;
+    width: 400px;
+    height: 400px;
+  }
+
+  .slide>img{
     width: 100%;
   }
 
-  img{
-    width: 100%;
-  }
-}
+}/* 削除だめ */
 
+
+/*-------- response ---------*/
 /*------- tablet -------*/
 @media screen and (max-width: 800px){
   .container{
@@ -136,4 +159,6 @@ footer p {
     #slider{
       width: 100%;
     }
-}
+
+
+}/* 削除だめ */
