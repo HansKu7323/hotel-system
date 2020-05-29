@@ -1,4 +1,12 @@
 <?php
+
+if(!isset($_POST["u_id"])|| $_POST["u_id"]==""){
+  exit("IDを入力して下さい");
+}
+
+if(!isset($_POST["u_pw"])|| $_POST["u_pw"]==""){
+  exit("Passwordを入力して下さい!");
+}
 //1. POSTデータ取得
 
 //まず前のphpからデーターを受け取る（この受け取ったデータをもとにbindValueと結びつけるため）

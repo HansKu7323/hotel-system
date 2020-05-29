@@ -33,20 +33,20 @@
 
             <!--------- アカウントを作成 ------------>
       <section class="form">
-        <form method="post" action="new_account_act.php" >
+        <form  name="myForm" method="post" action="new_account_act.php" onsubmit="return(check());">
           <section class="guest data"> 
             <h2>アカウントを作成</h2>
             <hr>
             <ul>
               <li>
-                <label for="name">Id</label>
+                <label for="u_id">Id</label>
                 <input type="text" name="u_id" id="u_id">
               </li>
               <li>
-                <label for="password">Password</label>
-                <input type="text" name="u_pw" id="password">
+                <label for="u_pw">Password</label>
+                <input type="text" name="u_pw" id="u_pw">
               </li>
-              <button type="submit" class="btn">アカウントを作成</button>
+              <button type="submit" class="btn" id="btn">アカウントを作成</button>
             </ul>
             <div class="div_btn">
               <a href="staff_login.php">ログインへ戻る</a>
@@ -54,14 +54,19 @@
           </section>
         </form>
       </section>
-    
-
-
-
 
     <footer>
       <p>(c) Hans Hotel.com</p>
     </footer>
   </div>
+
+
+  <script
+  src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+  integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs="
+  crossorigin="anonymous"></script>
+  <script src="js/new_account.js"></script>
+
+
 </body>
 </html>
