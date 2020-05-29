@@ -127,6 +127,29 @@ textarea{
   cursor: pointer;
 }
 
+.div_btn{
+  border: 1px #fff solid;
+  width: 100%;
+  border-radius: 5px;
+  background: #08c;
+  text-align: center;
+}
+
+.div_btn:hover{
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+
+.div_btn>a{
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  padding: 15px;
+  font-size: 16px;
+}
+
+
 footer p {
   text-align: center;
   font-size: 14px;
