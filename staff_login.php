@@ -48,9 +48,9 @@
               </li>
               <button type="submit" class="btn">ログイン</button>
             </ul>
-            <!-- <div class="div_btn">
+            <div class="div_btn">
               <a href="new_account.php">新規作成</a>
-            </div> -->
+            </div>
           </section>
           
         </form>

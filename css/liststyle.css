@@ -13,6 +13,7 @@ body {
   margin: 0 auto;
 }
 
+/*------- header -------*/
 header{
   text-align: center;
   background-color: #333;
@@ -31,6 +32,42 @@ header p{
   margin-bottom: 10px;
 }
 
+/*------- logout btn -------*/
+.div_btn{
+  border: 1px #fff solid;
+  width: 100px;
+  border-radius: 5px;
+  background: #08c;
+  text-align: center;
+}
+
+.div_btn:hover{
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+
+.div_btn>a{
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  padding: 15px;
+  font-size: 16px;
+}
+
+/*------- subtitle -------*/
+
+.subtitle{
+  text-align: center;
+}
+
+h2{
+  font-size: 35px;
+  font-weight: bold;
+}
+
+
+/*----- table -----*/
 table{
   width: 100%;
 }

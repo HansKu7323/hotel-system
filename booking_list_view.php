@@ -58,7 +58,13 @@ if($status==false){
         <p>Tel 0555-62-3901　　Fax 0555-62-3902</p>
       </header>
 
-      <a class="navbar-brand" href="staff_logout.php">LOGOUT</a>
+      <div class="div_btn">
+        <a class="navbar-brand" href="staff_logout.php">LOGOUT</a>
+      </div>
+
+      <div class="subtitle">
+        <h2>booking list</h2>
+      </div>
 
       <table class="table">
         <thead>
