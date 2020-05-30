@@ -1,12 +1,14 @@
+let u_id = document.myForm.u_id.value;
+let u_pw = document.myForm.u_pw.value;
 function check()
 {
-   if( document.myForm.u_id.value == "" )
+   if( u_id == "" )
    {
      alert( "IDを入力してください！" );
      document.myForm.u_id.focus() ;
      return false;
    }
-   if( document.myForm.u_pw.value == "" )
+   if( u_pw  == "" )
    {
      alert( "Passwordを入力してください！" );
      document.myForm.u_pw.focus() ;
@@ -15,4 +17,6 @@ function check()
    alert( "アカウントを作成しました！" );
    alert( "ログイン画面へ戻ります！" );
    return( true );
-}
+};
+
+

@@ -3,6 +3,7 @@
   box-sizing: border-box;
 }
 
+
 body {
   font-size: 16px;
   font-family: Verdana, sans-serif;
@@ -14,12 +15,7 @@ body {
   margin: 0 auto;
 }
 
-p{
-  line-height: 1.75em;
-}
-
-
-/*-------- header -------*/
+/*----- header -----*/
 header{
   text-align: center;
   background-color: #333;
@@ -32,11 +28,9 @@ h1{
   font-weight: bold;
   margin-bottom: 20px;
 }
-
 header p{
   margin-bottom: 10px;
 }
-
 
 /*----- nav -----*/
 .nav_list{

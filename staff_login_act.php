@@ -1,14 +1,11 @@
 <?php
 session_start();
+include("func.php");
 $lid = $_POST["u_id"];
 $lpw = $_POST["u_pw"];
 
 //1. 接続します
-try {
-  $pdo = new PDO('mysql:dbname=hotel_booking_db;charset=utf8;host=localhost','root','');
-} catch (PDOException $e) {
-  exit('DbConnectError:'.$e->getMessage());
-}
+$pdo = db_connect();
 
 //２．データ登録SQL作成
 $sql = "SELECT * FROM hotel_staff_table WHERE u_id=:lid AND u_pw=:lpw";

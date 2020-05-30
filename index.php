@@ -1,34 +1,29 @@
-<!DOCTYPE html>
-<html lang="ja">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Hans Hotel Japan</title>
+<?php 
+  $title = ' ';
+  include("head.php");
+?>
   <link rel="stylesheet" href="css/reset.css">
   <link href="css/main.css?v=<?php echo time(); ?>" rel="stylesheet" type="text/css" />
   <link href="css/bootstrap.min.css" rel="stylesheet">
 </head>
 
 <body>
-  <!-------- header ---------->
   <div class="container">
-    <header>
-          <h1>Hans Hotel Japan</h1>
-          <p>〒401-0501　山梨県 南都留郡 山中湖村 山中 1445-1
-          </p>
-          <p>Tel 0555-62-3901　　Fax 0555-62-3902</p>
-    </header>
+    <!-------- header ---------->
+    <?php 
+      include("header.php");
+    ?>
   
     <!------------- nav ------------->
-      <nav>
-        <ul class="nav_list">
-          <li class="nav_item"><a href="guestroom.php">客室情報</a></li>
-          <li class="nav_item"><a href="equipment.php">施設.サービス</a></li>
-          <li class="nav_item"><a href="restaurant.php">レストラン</a></li>
-          <li class="nav_item"><a href="access.php">アクセス</a></li>
-          <li class="nav_item"><a href="booking.php">Booking</a></li>
-        </ul>
-      </nav>
+    <nav>
+      <ul class="nav_list">
+        <li class="nav_item"><a href="guestroom.php">客室情報</a></li>
+        <li class="nav_item"><a href="equipment.php">施設.サービス</a></li>
+        <li class="nav_item"><a href="restaurant.php">レストラン</a></li>
+        <li class="nav_item"><a href="access.php">アクセス</a></li>
+        <li class="nav_item"><a href="booking.php">Booking</a></li>
+      </ul>
+    </nav>
 
     <!---------- slider --------->
     <div id="slider">
@@ -56,7 +51,6 @@
     </div>
 
   <!----------- nav ------------>
-
       <nav>
           <ul class="foot_nav_list">
             <li class="nav_item"><a href="guestroom.php">客室情報</a></li>

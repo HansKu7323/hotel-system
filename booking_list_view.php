@@ -1,16 +1,12 @@
 <?php
-//1.  DB接続します xxxにDB名を入れます
-try {
-// mampの場合は注意です！違います！別途後ほど確認します！
-$pdo = new PDO('mysql:dbname=hotel_booking_db;charset=utf8;host=localhost','root','');
-} catch (PDOException $e) {
-  exit('データベースに接続できませんでした。'.$e->getMessage());
-}
+include("func.php");
+//1.  DB接続します
+$pdo = db_connect();
 
 //２．データ登録SQL作成
-//作ったテーブル名を書く場所  xxxにテーブル名を入れます
 $stmt = $pdo->prepare("SELECT * FROM hotel_booking_table");
 $status = $stmt->execute();
+
 
 //３．データ表示
 $view="";
@@ -33,6 +29,7 @@ if($status==false){
     '<td>'.$result["room_type"].'</td>'.
     '<td>'.$result["others"].'</td>'.
     '<td>'.$result["indate"].'</td>'.
+    '<td>'.'<a href = "booking_delete.php?id='.$result["id"].'">削除</a>'.'</td>'.
 
     '</tr>';
   }
@@ -46,7 +43,7 @@ if($status==false){
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Hans Hotel Japan</title>
   <link rel="stylesheet" href="css/reset.css">
-  <link href="css/liststyle.css?v=<?php echo time(); ?>" rel="stylesheet" type="text/css" />
+  <link href="css/booking_list_view.css?v=<?php echo time(); ?>" rel="stylesheet" type="text/css" />
 
 </head>
 <body>
@@ -69,17 +66,18 @@ if($status==false){
       <table class="table">
         <thead>
           <tr>
-            <th class="th1">id</th>
-            <th class="th2">Name</th>
+            <th class="th1">No</th>
+            <th class="th2">名前</th>
             <th class="th3">Email</th>
-            <th class="th4">Telephone</th>
+            <th class="th4">電話</th>
             <!-- <th class="th5">country</th> -->
-            <th class="th6">N.O.P</th>
-            <th class="th7">Arrive date</th>
-            <th class="th8">Depart date</th>
+            <th class="th6">人数</th>
+            <th class="th7">チェックイン</th>
+            <th class="th8">チェックアウト</th>
             <th class="th9">Room</th>
             <th class="th10">others</th>
-            <th class="th10">input date</th>
+            <th class="th11">予約日</th>
+            <th class="th12"></th>
           </tr>
         </thead>
         <tbody>

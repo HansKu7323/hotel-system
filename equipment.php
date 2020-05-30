@@ -1,9 +1,7 @@
-<!DOCTYPE html>
-<html lang="ja">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Hans Hotel Japan</title>
+<?php 
+  $title = ' 管内設備ー';
+  include("head.php");
+?>
   <link rel="stylesheet" href="css/reset.css">
   <link href="css/equipment.css?v=<?php echo time(); ?>" rel="stylesheet" type="text/css" />
 </head>
@@ -11,12 +9,9 @@
 <body>
   <!-------- header ---------->
   <div class="container">
-    <header>
-      <h1>Hans Hotel Japan</h1>
-      <p>〒401-0501　山梨県 南都留郡 山中湖村 山中 1445-1
-      </p>
-      <p>Tel 0555-62-3901　　Fax 0555-62-3902</p>
-    </header>
+    <?php 
+      include("header.php");
+    ?>
   
     <!---------- nav ---------->
       <nav>
@@ -103,7 +98,7 @@
           <ul class="mainbox">
             <li class="mainbox_item">
               <div class="imgbox"> 
-                <img src="img/equipment2.jpg" alt="">
+                <img src="img/equiptment3.jpg" alt="">
               </div></li>
             <li class="mainbox_item">
               <table>

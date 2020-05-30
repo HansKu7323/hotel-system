@@ -69,20 +69,61 @@ h2{
 
 /*----- table -----*/
 table{
-  width: 100%;
+  width: 1000px;
+  table-layout:fixed;
+  word-break:break-all;
 }
 
 .table th {
   border: solid #333;
-  background-color: #333;
-  color: whitesmoke;
+  background-color: #FFAAD5;
+  color: #333;
   padding: 5px 10px;
 }
-/* 追加データ */
+
+/*------- 追加データ -------*/
 .table td {
   border: solid #333;
-  padding: 0 3px;
+  padding: 3px;
   text-align: center;
+  background-color: #eee;
+  color: #333;
 }
 
+td>a{
+  text-decoration: none;
+}
 
+.th1{
+  width: 45px;
+}
+.th2{
+  width: 80px;
+}
+.th3{
+  width: 135px;
+}
+.th4{
+  width: 150px;
+}
+.th6{
+  width: 39px;
+}
+.th7{
+  width: 119px;
+}
+.th8{
+  width: 135px;
+}
+.th9{
+  width: 70px;
+}
+.th10{
+  width: 80px;
+}
+.th11{
+  width: 106px;
+}
+.th12{
+  width: 41px;
+}

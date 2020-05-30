@@ -66,7 +66,5 @@
   integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs="
   crossorigin="anonymous"></script>
   <script src="js/new_account.js"></script>
-
-
 </body>
 </html>

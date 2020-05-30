@@ -25,17 +25,16 @@
           <li class="nav_item"><a href="guestroom.php">客室情報</a></li>
           <li class="nav_item"><a href="equipment.php">施設.サービス</a></li>
           <li class="nav_item"><a href="restaurant">レストラン</a></li>
-          <li class="nav_item"><a href="access.php">アクセス</a></li>
-          
+          <li class="nav_item"><a href="access.php">アクセス</a></li>   
         </ul>
       </nav>
 
 
             <!--------- アカウントを作成 ------------>
       <section class="form">
-        <form method="post" action="staff_login_act.php" >
+        <form name= myForm method="post" action="staff_login_act.php" onsubmit="return(login_check());">
           <section class="guest data"> 
-            <h2>ログイン</h2>
+              <h2>ログイン</h2>
             <hr>
             <ul>
               <li>
@@ -46,23 +45,27 @@
                 <label for="password">Password</label>
                 <input type="text" name="u_pw" id="password">
               </li>
-              <button type="submit" class="btn">ログイン</button>
+              <button type="submit" class="btn" id="login_btn">ログイン</button>
             </ul>
             <div class="div_btn">
               <a href="new_account.php">新規作成</a>
             </div>
           </section>
-          
         </form>
       </section>
     
-
-
-
-
     <footer>
       <p>(c) Hans Hotel.com</p>
     </footer>
   </div>
+
+
+
+  <script
+    src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs="
+    crossorigin="anonymous">
+  </script>
+  <script src="js/new_account.js"></script>
 </body>
 </html>

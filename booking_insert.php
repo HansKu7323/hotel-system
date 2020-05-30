@@ -1,7 +1,19 @@
 <?php
-//1. POSTデータ取得
+include("func.php");
+// 入力チェック(受信確認処理追加)
+if(
+  !isset($_POST["name"]) || $_POST["name"]=="" ||
+  !isset($_POST["email"]) || $_POST["email"]=="" ||
+  !isset($_POST["telephone"]) || $_POST["telephone"]=="" ||
+  !isset($_POST["people"]) || $_POST["people"]=="" ||
+  !isset($_POST["arrive"]) || $_POST["arrive"]=="" ||
+  !isset($_POST["depart"]) || $_POST["depart"]=="" ||
+  !isset($_POST["room_type"]) || $_POST["room_type"]==""
+){
+  exit('ParamError');
+}
 
-//まず前のphpからデーターを受け取る（この受け取ったデータをもとにbindValueと結びつけるため）
+//1. POSTデータ取得
 $name = $_POST["name"];
 $email = $_POST["email"];
 $telephone = $_POST["telephone"];
@@ -13,17 +25,16 @@ $depart = $_POST["depart"];
 $room_type = $_POST["room_type"];
 $others = $_POST["others"];
 
-//2. DB接続します xxxにDB名を入力する
-//ここから作成したDBに接続をしてデータを登録します xxxxに作成したデータベース名を書きます
-try {
-  $pdo = new PDO('mysql:dbname=hotel_booking_db;charset=utf8;host=localhost','root','');
-} catch (PDOException $e) {
-  exit('DbConnectError:'.$e->getMessage());
-}
+//2. DB接続します(エラー処理追加)
+$pdo = db_connect();
+// try {
+//   $pdo = new PDO('mysql:dbname=hotel_booking_db;charset=utf8;host=localhost','root','');
+// } catch (PDOException $e) {
+//   exit('DbConnectError:'.$e->getMessage());
+// }
 
 
 //３．データ登録SQL作成 //ここにカラム名を入力する
-//xxx_table(テーブル名)はテーブル名を入力します
 $stmt = $pdo->prepare("INSERT INTO hotel_booking_table(id, name, email, telephone, address, country, people, arrive, depart, room_type, others, indate )VALUES(NULL, :name, :email, :telephone, :address, :country, :people, :arrive, :depart, :room_type, :others, sysdate())");
 $stmt->bindValue(':name', $name, PDO::PARAM_STR);
 $stmt->bindValue(':email', $email, PDO::PARAM_STR);
