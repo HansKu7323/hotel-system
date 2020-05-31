@@ -15,6 +15,7 @@ body {
   margin: 0 auto;
 }
 
+/*----- header -----*/
 header{
   margin-top: 10px;
   text-align: center;
@@ -29,10 +30,17 @@ h1{
   font-weight: bold;
   margin-bottom: 20px;
 }
+
+h1>a{
+  color: #fff;
+  text-decoration: none;
+}
+
 header p{
   margin-bottom: 10px;
 }
 
+/*----- nav -----*/
 .nav_list{
   display: flex;
   justify-content: space-between;
@@ -51,6 +59,7 @@ label{
   color: 	#ACD6FF;
 }
 
+/*----- form -----*/
 .form{
   width: 400px;
   margin: 0 auto 60px;
@@ -79,6 +88,7 @@ h2{
 
 }
 
+/*----- radio -----*/
 .room{
   border: 1px solid #fff;
   margin-bottom: 25px;
@@ -161,12 +171,38 @@ textarea{
   font-size: 16px;
 }
 
+/*----- back to top button -----*/
+.back-to-top {
+  display: none; 
+  position: fixed; /* 位置是固定的 */
+  bottom: 20px; /* 顯示在頁面底部 */
+  right: 30px; /* 顯示在頁面的右邊 */
+  z-index: 99; /* 確保不被其他功能覆蓋 */
+  border: 1px solid #5cb85c; /* 顯示邊框 */
+  outline: none;  /* 不顯示外框 */
+  background-color: #fff; /* 設置背景背景顏色 */
+  color: #5cb85c; /* 設置文本顏色 */
+  cursor: pointer; /* 滑鼠移到按鈕上顯示手型 */
+  padding: 10px 15px 15px 15px; /* 增加一些內邊距 */
+  border-radius: 10px; /* 增加圓角 */
+}
+  
+.back-to-top:hover {
+    background-color: #5cb85c; /* 滑鼠移上去時，反轉顏色 */
+    color: #fff;
+}
 
+/*----- foorer ------*/
 footer p {
   text-align: center;
   font-size: 14px;
   margin-bottom: 60px;
   color: gray;
+}
+
+.top>a{
+  text-decoration: none;
+  color:#fff;
 }
 
 /*------------------

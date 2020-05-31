@@ -119,7 +119,7 @@
           <a href="equipment.php">施設.サービス</a>
         </li>
         <li class="nav_item">
-          <a href="restaurant">レストラン</a>
+          <a href="restaurant.php">レストラン</a>
         </li>
         <li class="nav_item">
           <a href="access.php">アクセス</a>
@@ -127,15 +127,41 @@
       </ul>
     </nav>
 
-    <footer>
-      <p>(c) Hans Hotel.com</p>
-    </footer>
+
+    <!------- footer ------->
+    <?php 
+      include("footer.php");
+    ?>
   </div>
 
-  <script
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  <!-- <script
   src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
   integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs="
-  crossorigin="anonymous"></script>
+  crossorigin="anonymous"></script> -->
+
+  <script>
+    // back to top
+const $win = $(window);
+const back = $('#back');
+
+$(function () {
+      const $win = $(window);
+      const $backToTop = $('#back');  
+      $win.scroll(function () {
+      if ($win.scrollTop() > 50) {
+      $backToTop.show();
+      } else {
+      $backToTop.hide();
+      }
+    })
+  });
+    $('#back').on('click',function(){
+    // alert('hello')
+    $('html, body').animate({scrollTop: 0}, 200);
+  });
+  </script>
   <script src="js/booking.js"></script>
  
 </body>

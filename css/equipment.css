@@ -28,6 +28,12 @@ h1{
   font-weight: bold;
   margin-bottom: 20px;
 }
+
+h1>a{
+  color: #fff;
+  text-decoration: none;
+}
+
 header p{
   margin-bottom: 10px;
 }
@@ -124,12 +130,18 @@ td{
 }
 
 
+
 /*-------- footer -------*/
 footer p {
   text-align: center;
   font-size: 14px;
   margin:60px 0 20px 0;
   color: gray;
+}
+
+.top>a{
+  text-decoration: none;
+  color: blue;
 }
 
 

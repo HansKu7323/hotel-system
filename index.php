@@ -51,7 +51,8 @@
     </div>
 
     <!-------- map -------->
-    <h2>アクセス</h2>
+    <h2><a href="access.php">アクセス</a></h2>
+    <a href=""></a>
     <iframe src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBEkcgYzwKRr5Abxkx821yZw1WApR3dCUU&q=山梨県 南都留郡 山中湖村 山中 1445-1" ></iframe>
 
   <!----------- nav ------------>
@@ -66,9 +67,9 @@
       </nav>
   
   <!--------- footer ---------->
-    <footer>
-      <p>(c) Hans Hotel.com</p>
-    </footer>
+  <?php 
+    include("footer.php");
+  ?>
   </div>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>

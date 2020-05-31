@@ -1,10 +1,7 @@
-<!DOCTYPE html>
-<html lang="ja">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- <title>Hans Hotel東京</title> -->
-  <title>Hans Hotel Japan</title>
+<?php 
+  $title = '新規ー';
+  include("head.php");
+?>
   <link rel="stylesheet" href="css/reset.css">
   <link href="css/booking.css?v=<?php echo time(); ?>" rel="stylesheet" type="text/css" />
 </head>
@@ -54,10 +51,10 @@
           </section>
         </form>
       </section>
-
-    <footer>
-      <p>(c) Hans Hotel.com</p>
-    </footer>
+      <!-- footer -->
+      <?php 
+      include("footer.php");
+      ?>
   </div>
 
   <script>

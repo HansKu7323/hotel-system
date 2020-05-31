@@ -1,4 +1,3 @@
-
 function booking_check()
 {
 let name = document.booking.name.value;
@@ -45,4 +44,23 @@ let depart = document.booking.depart.value;
      return false;
    }
    return( true );
-}
+};
+
+
+// back to top
+const $win = $(window);
+const back = $('#back');
+
+$(function () {
+      const $win = $(window);
+      const $backToTop = $('#back');  
+      $win.scroll(function () {
+      if ($win.scrollTop() > 50) {
+      $backToTop.show();
+      } else {
+      $backToTop.hide();
+      }
+    })
+  });
+  
+  

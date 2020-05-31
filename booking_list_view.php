@@ -36,12 +36,10 @@ if($status==false){
 }
 ?>
 
-<!DOCTYPE html>
-<html lang="ja">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Hans Hotel Japan</title>
+<?php 
+  $title = '予約リストー';
+  include("head.php");
+?>
   <link rel="stylesheet" href="css/reset.css">
   <link href="css/booking_list_view.css?v=<?php echo time(); ?>" rel="stylesheet" type="text/css" />
 
