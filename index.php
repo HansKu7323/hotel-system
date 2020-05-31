@@ -26,21 +26,19 @@
     </nav>
 
     <!---------- slider --------->
-    <div id="slider">
-        <ul class="slides">
-          <li class="slide"><img src="img/mainbg.jpg" alt=""></li>
-          <li class="slide"><img src="img/pic00.JPG" alt=""></li>
-          <li class="slide"><img src="img/pic01.JPG" alt=""></li>
-          <li class="slide"><img src="img/pic02.jpeg" alt=""></li>
-          <li class="slide"><img src="img/pic03.jpeg" alt=""></li>
-          <li class="slide"><img src="img/pic04.jpeg" alt=""></li>
-          <li class="slide"><img src="img/pic05.jpeg" alt=""></li>
-          <li class="slide"><img src="img/pic06.jpeg" alt=""></li>
-          <li class="slide"><img src="img/pic07.jpeg" alt=""></li>
-          <li class="slide"><img src="img/pic08.jpeg" alt=""></li>
-          <li class="slide"><img src="img/mainbg.jpg" alt=""></li>
-        </ul>
-      </div>
+    <div class="slider">
+      <img src="img/mainbg.jpg" alt="">
+      <img src="img/pic00.JPG" alt="">
+      <img src="img/pic01.JPG" alt="">
+      <img src="img/pic02.jpeg" alt="">
+      <img src="img/pic03.jpeg" alt="">
+      <img src="img/pic04.jpeg" alt="">
+      <img src="img/pic05.jpeg" alt="">
+      <img src="img/pic06.jpeg" alt="">
+      <img src="img/pic07.jpeg" alt="">
+      <img src="img/pic08.jpeg" alt="">
+      <img src="img/mainbg.jpg" alt="">
+    </div>
 
   <!------------ textbox -------->
     <div class="text_box">

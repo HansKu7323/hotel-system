@@ -60,28 +60,14 @@ margin: 25px 0;
 
 
 /* ------ slider -------- */
-#slider{
-  margin: 0 auto ;
-  width: 720px;
-  height: 400px;
-  overflow: hidden;
+.slider{
+  width: 100%;
+  height: 500px;
 }
-
-#slider .slides{
-  display: block;
-  width: 7920px;
-  height: 400px;
-  margin: 0;
-  padding: 0;
+.slider>img{
+  width: 100%;
+  height: 100%;
 }
-
-#slider .slide{
-  float: left;
-  list-style: none;
-  width: 720px;
-  height: 400px;
-}
-
 
 /*------- 紹介 -------*/
 .text_box{
@@ -152,6 +138,7 @@ footer p {
     width: 95%;
   }
 
+  /*----- nav -----*/
   .nav_list{
     display: block;
   }
@@ -164,7 +151,11 @@ footer p {
     font-size: 14px;
   }
 
-  /*------ mao ------*/
+  /*----- slider ------*/
+  .slider{
+    height: 200px;
+  }
+  /*------ map ------*/
   iframe{
     width: 100%;
   }
@@ -173,15 +164,15 @@ footer p {
 }/* 削除だめ */
 
 
-/*-------- response ---------*/
 /*------- tablet -------*/
 @media screen and (max-width: 800px){
   .container{
     width: 95%;
     }
 
-  #slider{
-    width: 100%;
+  /*----- slider -----*/
+  .slider{
+    height: 400px;
   }
 
   /*------ mao ------*/

@@ -35,10 +35,29 @@
    
 
     <!-- <div class="mapbox"> -->
-      <iframe src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBEkcgYzwKRr5Abxkx821yZw1WApR3dCUU&q=山梨県 南都留郡 山中湖村 山中 1445-1" ></iframe>
+      <div class="iframe">
+        <iframe src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBEkcgYzwKRr5Abxkx821yZw1WApR3dCUU&q=山梨県 南都留郡 山中湖村 山中 1445-1" ></iframe>
+      </div>
+
+
+      <div class="access-box">
+        <h3>東京方面からのアクセス</h3>
+        <div>■お車でのアクセス</div>
+        <img src="img/access1.png" alt="">
+        <div>■バスでのアクセス</div>
+        <img src="img/access2.png" alt="">
+        <div>■電車からのアクセス</div>
+        <img src="img/access3.png" alt="">
+      </div>
+
+      <div class="access-box">
+        <h3>関西方面からのアクセス</h3>
+        <div>■お車でのアクセス</div>
+        <img src="img/access4.png" alt="">
+        <div>■電車からのアクセス</div>
+        <img src="img/access5.png" alt="">
+      </div>
       <!-- <div id="target"></div> -->
-   
-      
       <!-- <script src="https://maps.googleapis.com/maps/api/js?language=ja&region=JP&key=AIzaSyBEkcgYzwKRr5Abxkx821yZw1WApR3dCUU&callback=initMap" async defer></script> -->
     <!-- </div> -->
 
