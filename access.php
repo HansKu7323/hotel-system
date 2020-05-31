@@ -25,18 +25,22 @@
      </nav>
 
     <div class="titletext">
-      <h2>アクセス・Access</h2>
+      <h2>アクセス</h2>
       <hr>
     </div>
 
     <div class="addresstext">
       <p>〒401-0501　山梨県 南都留郡 山中湖村 山中 1445-1</p>
     </div>
+   
 
-    <div class="mapbox">
-      <div id="target"></div>
-      <script src="https://maps.googleapis.com/maps/api/js?language=ja&region=JP&key=AIzaSyBEkcgYzwKRr5Abxkx821yZw1WApR3dCUU&callback=initMap" async defer></script>
-    </div>
+    <!-- <div class="mapbox"> -->
+      <iframe src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBEkcgYzwKRr5Abxkx821yZw1WApR3dCUU&q=山梨県 南都留郡 山中湖村 山中 1445-1" ></iframe>
+      <!-- <div id="target"></div> -->
+   
+      
+      <!-- <script src="https://maps.googleapis.com/maps/api/js?language=ja&region=JP&key=AIzaSyBEkcgYzwKRr5Abxkx821yZw1WApR3dCUU&callback=initMap" async defer></script> -->
+    <!-- </div> -->
 
       <!-----------foot_nav ------------>
     <nav>
@@ -53,7 +57,6 @@
     <footer>
        <p>(c) Hans Hotel.com</p>
     </footer>
-  
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
     <script src="js/access.js"></script>

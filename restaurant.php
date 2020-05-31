@@ -27,7 +27,6 @@
 
       <main>
         <h2>レストラン</h2>
-        <hr>
         <section class="dining">   
             <h3>Buffet・Dining（Ground Floor）</h3>
             <p>日本の味自慢。式の旬を存分に楽しむレストラン。</pack>

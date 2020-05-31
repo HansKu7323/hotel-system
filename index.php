@@ -4,7 +4,7 @@
 ?>
   <link rel="stylesheet" href="css/reset.css">
   <link href="css/main.css?v=<?php echo time(); ?>" rel="stylesheet" type="text/css" />
-  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- <link href="css/bootstrap.min.css" rel="stylesheet"> -->
 </head>
 
 <body>
@@ -50,9 +50,13 @@
       <p>日本式の大浴場と露天風呂を備え、美味しい食事とおもてなしで旅の疲れを癒します。</p>
     </div>
 
+    <!-------- map -------->
+    <h2>アクセス</h2>
+    <iframe src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBEkcgYzwKRr5Abxkx821yZw1WApR3dCUU&q=山梨県 南都留郡 山中湖村 山中 1445-1" ></iframe>
+
   <!----------- nav ------------>
       <nav>
-          <ul class="foot_nav_list">
+          <ul class="nav_list">
             <li class="nav_item"><a href="guestroom.php">客室情報</a></li>
             <li class="nav_item"><a href="equipment.php">施設.サービス</a></li>
             <li class="nav_item"><a href="restaurant.php">レストラン</a></li>

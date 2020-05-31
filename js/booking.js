@@ -34,13 +34,13 @@ let depart = document.booking.depart.value;
    }
    if( arrive == "" )
    {
-     alert( "到着日を入力してください！" );
+     alert( "チェックインを入力してください！" );
      document.booking.arrive.focus() ;
      return false;
    }
    if( depart == "" )
    {
-     alert( "到着日を入力してください！" );
+     alert( "チェックアウトを入力してください！" );
      document.booking.depart.focus() ;
      return false;
    }

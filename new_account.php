@@ -60,11 +60,30 @@
     </footer>
   </div>
 
+  <script>
+    function check()
+    {
+      if( document.myForm.u_id.value == "" )
+      {
+        alert( "IDを入力してください！" );
+        document.myForm.u_id.focus() ;
+        return false;
+      }
+      if( document.myForm.u_pw.value == "" )
+      {
+        alert( "Passwordを入力してください！" );
+        document.myForm.u_pw.focus() ;
+        return false;
+      }
+      alert( "アカウントを作成しました！" );
+      alert( "ログイン画面へ戻ります！" );
+      return( true );
+    } 
+  </script>
 
   <script
   src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
   integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs="
   crossorigin="anonymous"></script>
-  <script src="js/new_account.js"></script>
 </body>
 </html>

@@ -32,7 +32,7 @@
 
             <!--------- アカウントを作成 ------------>
       <section class="form">
-        <form name= myForm method="post" action="staff_login_act.php" onsubmit="return(login_check());">
+      <form  name="loginForm" method="post" action="staff_login_act.php" onsubmit="return(login_check());">
           <section class="guest data"> 
               <h2>ログイン</h2>
             <hr>
@@ -60,12 +60,11 @@
   </div>
 
 
-
   <script
     src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
     integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs="
     crossorigin="anonymous">
   </script>
-  <script src="js/new_account.js"></script>
+  <script src="js/login.js"></script>
 </body>
 </html>

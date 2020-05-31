@@ -56,10 +56,19 @@ h2{
 }
 
 /*----- map -----*/
-#target {
+iframe{
   width: 1000px;
   height: 500px;
+  margin-bottom: 10px;
 }
+
+/* #target {
+  width: 1000px;
+  height: 500px;
+} */
+
+
+
 
 
 
@@ -86,7 +95,7 @@ footer p {
 /*------- telephone -------*/
 @media screen and (max-width: 500px){
   .container{
-    width: 90%;
+    width: 95%;
   }
 
   .nav_list{
@@ -109,15 +118,15 @@ footer p {
   margin-bottom: 10px;
  }
 
-  table{
-    width: 300px;
-  }
 
   /*----- map -----*/
-  #target {
+  iframe{
+    width: 100%;
+  }
+  /* #target {
     width: 350px;
     height: 200px;
-  }
+  } */
 
 }/* 削除だめ */
 
@@ -126,13 +135,16 @@ footer p {
 /*------- tablet -------*/
 @media screen and (max-width: 800px){
   .container{
-    width: 90%;
+    width: 95%;
     }
 
     /*----- map -----*/
-  #target {
+    iframe{
+      width: 100%;
+    }
+  /* #target {
     width: 700px;
     height: 450px;
-  }
+  } */
 
   }/* 削除だめ */

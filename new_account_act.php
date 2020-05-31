@@ -15,10 +15,10 @@ $u_pw = $_POST["u_pw"];
 //2. DB接続します
 $pdo = db_connect();
 
-//３．データ登録SQL作成 //ここにカラム名を入力する
-//xxx_table(テーブル名)はテーブル名を入力します
+//３．データ登録SQL作成
 $sql = "SELECT * FROM hotel_staff_table where u_id='$u_id'";
-$stmt = $pdo->query($sql);
+$stmt = $pdo->prepare($sql);
+$status = $stmt->execute();
 $row =  $stmt->fetch($stmt);;
 if($row[1] == $u_id)
 {

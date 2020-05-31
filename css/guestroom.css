@@ -38,6 +38,9 @@ header p{
 .nav_list{
   display: flex;
   justify-content: space-between;
+  border-top: 1px #333 solid;
+  border-bottom: 1px #333 solid;
+  margin: 10px 0 ;
 }
 
 .nav_item{
@@ -138,7 +141,7 @@ footer p {
 @media screen and (max-width: 1000px){
 
   .container{
-    width: 90%;
+    width: 95%;
     }
 
     #slider{

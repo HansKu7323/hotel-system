@@ -38,6 +38,9 @@ header p{
 .nav_list{
   display: flex;
   justify-content: space-between;
+  border-top: 1px #333 solid;
+  border-bottom: 1px #333 solid;
+  margin: 10px 0 ;
 }
 
 .nav_item{
@@ -78,17 +81,23 @@ margin: 25px 0;
 .text_box{
   text-align: center;
   line-height: 26px;
-  margin: 0 0 20px 0;
+  margin: 0 0 40px 0;
 }
 
-
-/*------ foot_nav -----*/
-.foot_nav_list{
-  display: flex;
-  justify-content: space-between;
-  border-top: 1px #333 solid;
-  border-bottom: 1px #333 solid;
+/*------- map -------*/
+h2{
+  text-align: center;
+  font-size: 35px;
+  font-weight: normal;
+  margin-bottom: 5px;
 }
+
+iframe{
+  width: 1000px;
+  height: 500px;
+  margin-bottom: 10px;
+}
+
 
 
 /*-------- footer -------*/
@@ -104,7 +113,7 @@ footer p {
 /*------- telephone -------*/
 @media screen and (max-width: 500px){
   .container{
-    width: 90%;
+    width: 95%;
   }
 
   .nav_list{
@@ -119,32 +128,11 @@ footer p {
     font-size: 14px;
   }
 
-/* ------ slider -------- */
-  #slider{
-    margin: 0 auto ;
-    width: 400px;
-    height: 400px;
-    overflow: hidden;
-  }
-
-  #slider .slides{
-    display: block;
-    width: 4125px;
-    height: 400px;
-    margin: 0;
-    padding: 0;
-  }
-
-  #slider .slide{
-    float: left;
-    list-style: none;
-    width: 400px;
-    height: 400px;
-  }
-
-  .slide>img{
+  /*------ mao ------*/
+  iframe{
     width: 100%;
   }
+
 
 }/* 削除だめ */
 
@@ -153,12 +141,17 @@ footer p {
 /*------- tablet -------*/
 @media screen and (max-width: 800px){
   .container{
-    width: 90%;
+    width: 95%;
     }
 
-    #slider{
-      width: 100%;
-    }
+  #slider{
+    width: 100%;
+  }
+
+  /*------ mao ------*/
+  iframe{
+    width: 100%;
+  }
 
 
 }/* 削除だめ */
