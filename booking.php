@@ -64,7 +64,7 @@
               <ul>
                 <li>
                   <label for="people">人数</label>
-                  <input type="number" name="people" id="people">
+                  <input type="number" name="people" id="people" min="1" max="10">
                 </li>
                 <li>
                   <label for="arrive">チェックイン</label>

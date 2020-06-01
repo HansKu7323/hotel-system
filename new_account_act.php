@@ -16,13 +16,13 @@ $u_pw = $_POST["u_pw"];
 $pdo = db_connect();
 
 //３．データ登録SQL作成
-$sql = "SELECT * FROM hotel_staff_table where u_id='$u_id'";
+$sql = "SELECT u_id FROM hotel_staff_table ";
 $stmt = $pdo->prepare($sql);
-$status = $stmt->execute();
-$row =  $stmt->fetch($stmt);;
-if($row[1] == $u_id)
+$row =  $stmt->fetch(PDO::FETCH_ASSOC);
+
+if($row['u_id'] == $u_id)
 {
-  echo '帳號重複，請洽管理員';
+  echo '入力のアカウントも登録されています';
 	echo '<meta http-equiv=REFRESH CONTENT=2;url=new_account.php>';
 }
 

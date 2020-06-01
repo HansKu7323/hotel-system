@@ -18,16 +18,16 @@ if($status==false){
   //Selectデータの数だけ自動でループしてくれる $resultの中に「カラム名」が入ってくるのでそれを表示させる例
   while( $result = $stmt->fetch(PDO::FETCH_ASSOC)){
     $view .= '<tr>'.
-    '<td>'.$result["id"].'</td>'.
-    '<td>'.$result["name"].'</td>'.
-    '<td>'.$result["email"].'</td>'.
-    '<td>'.$result["telephone"].'</td>'.
+    '<td>'.h($result["id"]).'</td>'.
+    '<td>'.h($result["name"]).'</td>'.
+    '<td>'.h($result["email"]).'</td>'.
+    '<td>'.h($result["telephone"]).'</td>'.
     // '<td>'.$result["country"].'</td>'.
-    '<td>'.$result["people"].'</td>'.
-    '<td>'.$result["arrive"].'</td>'.
-    '<td>'.$result["depart"].'</td>'.
-    '<td>'.$result["room_type"].'</td>'.
-    '<td>'.$result["others"].'</td>'.
+    '<td>'.h($result["people"]).'</td>'.
+    '<td>'.h($result["arrive"]).'</td>'.
+    '<td>'.h($result["depart"]).'</td>'.
+    '<td>'.h($result["room_type"]).'</td>'.
+    '<td>'.h($result["others"]).'</td>'.
     '<td>'.$result["indate"].'</td>'.
     '<td>'.'<a href = "booking_delete.php?id='.$result["id"].'">削除</a>'.'</td>'.
 
