@@ -43,7 +43,7 @@
   <!------------ textbox -------->
     <div class="text_box">
       <p>ようこそ、日本一！世界一！富士山に近い湖、山中湖へ</p>
-      <p>山中湖畔に新しく誕生したホテル“SUN PLAZA HOTEL 富士山中湖</p>
+      <p>山中湖畔に新しく誕生したホテル Hans HOTEL </p>
       <p>世界各国から富士山へ集まるゲストをもてなすために作られたレイクサイドホテルです</p>
       <p>日本式の大浴場と露天風呂を備え、美味しい食事とおもてなしで旅の疲れを癒します。</p>
     </div>
@@ -78,7 +78,7 @@
   </div>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="js/main.js"></script>
+  <!-- <script src="js/main.js"></script> -->
 </div>
 </body>
 </html>

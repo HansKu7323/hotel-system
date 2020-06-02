@@ -1,5 +1,15 @@
 <?php
 include("func.php");
+
+session_start();
+if( !isset($_SESSION["chk_ssid"]) || $_SESSION["chk_ssid"] != session_id()){
+  echo "LOGIN Error!";
+  exit();
+}else{
+  session_regenerate_id(true);
+  $_SESSION["chi_ssid"] = session_id();
+}
+
 //1.  DB接続します
 $pdo = db_connect();
 

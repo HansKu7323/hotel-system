@@ -63,15 +63,15 @@
               <hr>
               <ul>
                 <li>
-                  <label for="people">人数</label>
+                  <label for="people">人数（必須）</label>
                   <input type="number" name="people" id="people" min="1" max="10">
                 </li>
                 <li>
-                  <label for="arrive">チェックイン</label>
+                  <label for="arrive">チェックイン（必須）</label>
                   <input type="date" name="arrive" id="arrive">
                 </li>
                 <li>
-                  <label for="depart">チェックアウト</label>
+                  <label for="depart">チェックアウト（必須）</label>
                   <input type="date" name="depart" id="depart">
                 </li>
 
