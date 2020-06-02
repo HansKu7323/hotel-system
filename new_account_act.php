@@ -16,9 +16,11 @@ $u_pw = $_POST["u_pw"];
 $pdo = db_connect();
 
 //３．データ登録SQL作成
-$sql = "SELECT u_id FROM hotel_staff_table ";
+$sql = "SELECT * FROM hotel_staff_table WHERE u_id=:lid";
 $stmt = $pdo->prepare($sql);
-$row =  $stmt->fetch(PDO::FETCH_ASSOC);
+$stmt->bindValue(':lid', $u_id);
+$res = $stmt->execute();
+$row =  $stmt->fetch();
 
 if($row['u_id'] == $u_id)
 {
