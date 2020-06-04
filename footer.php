@@ -1,4 +1,4 @@
 <footer>
   <button class="back-to-top" title="回到頭部" id="back">&#65085;</button>
-  <p>(c) Hans Hotel.com</p>
+  <p>Copyright(C) 2020 Hans Hotel. All Rights Reserved.</p>
 </footer>

@@ -44,7 +44,7 @@
           <ul class="mainbox">
             <li class="mainbox_item">
               <div class="imgbox"> 
-                <img src="img/equipment1.jpg" alt="">
+                <img src="img/equipment1.jpg" alt="メインダイニングの画像">
               </div></li>
             <li class="mainbox_item">
               <table>
@@ -71,7 +71,7 @@
           <ul class="mainbox">
             <li class="mainbox_item">
               <div class="imgbox"> 
-                <img src="img/equipment2.jpg" alt="">
+                <img src="img/equipment2.jpg" alt="大浴場の画像">
               </div></li>
             <li class="mainbox_item">
               <table>
@@ -98,7 +98,7 @@
           <ul class="mainbox">
             <li class="mainbox_item">
               <div class="imgbox"> 
-                <img src="img/equiptment3.jpg" alt="">
+                <img src="img/equiptment3.jpg" alt="コインランドリーの画像">
               </div></li>
             <li class="mainbox_item">
               <table>
@@ -147,6 +147,7 @@
     ?>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/main.js"></script>
     <script src="js/main.js"></script>
   </div>
 </body>

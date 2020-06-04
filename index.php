@@ -27,17 +27,17 @@
 
     <!---------- slider --------->
     <div class="slider">
-      <img src="img/mainbg.jpg" alt="">
-      <img src="img/pic00.JPG" alt="">
-      <img src="img/pic01.JPG" alt="">
-      <img src="img/pic02.jpeg" alt="">
-      <img src="img/pic03.jpeg" alt="">
-      <img src="img/pic04.jpeg" alt="">
-      <img src="img/pic05.jpeg" alt="">
-      <img src="img/pic06.jpeg" alt="">
-      <img src="img/pic07.jpeg" alt="">
-      <img src="img/pic08.jpeg" alt="">
-      <img src="img/mainbg.jpg" alt="">
+      <img src="img/mainbg.jpg" alt="ホテルの画像">
+      <img src="img/pic00.JPG" alt="周辺風景の画像">
+      <img src="img/pic01.JPG" alt="周辺風景の画像">
+      <img src="img/pic02.jpeg" alt="周辺風景の画像">
+      <img src="img/pic03.jpeg" alt="周辺風景の画像">
+      <img src="img/pic04.jpeg" alt="周辺風景の画像">
+      <!-- <img src="img/pic05.jpeg" alt="周辺風景の画像"> -->
+      <img src="img/pic06.jpeg" alt="周辺風景の画像">
+      <img src="img/pic07.jpeg" alt="周辺風景の画像">
+      <img src="img/pic08.jpeg" alt="周辺風景の画像">
+      <!-- <img src="img/mainbg.jpg" alt="周辺風景の画像"> -->
     </div>
 
   <!------------ textbox -------->
@@ -78,7 +78,7 @@
   </div>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <!-- <script src="js/main.js"></script> -->
+  <script src="js/main.js"></script>
 </div>
 </body>
 </html>

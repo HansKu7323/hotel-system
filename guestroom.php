@@ -35,7 +35,7 @@
     <!------- main ------->
     <main>
       <div class="guestroom">
-          <img src="img/room.jpg" alt="">
+          <img src="img/room.jpg" alt="部屋の画像">
       </div>
 
       <!------ 客室情報 ------>
@@ -45,19 +45,19 @@
       <hr>
       <div class=room_infomation>
         <div class="room_part">
-          <img src="img/amenity.jpg" alt="">
+          <img src="img/amenity.jpg" alt="アメニティーの画像">
           <h3>アメニティー</h3>
           <p>日本を意識したデザインの袋入り歯ブラシセット（歯磨き粉GUM）、二つ折りスリムブラシ、ヘアリング、シャワーキャップ、コットン、綿棒レザー髭剃り、フォームソープシャンプー、コンディショナー、ボディーソープはPOLA製で女性が使いやすい商品を揃えました。</p>
         </div>
         <div class="room_part">
-          <img src="img/roomkey.jpg" alt="">
+          <img src="img/roomkey.jpg" alt="ルームキーの画像">
           <h3>ルームキー</h3>
           <p>C/Iチェックイン15：00
             C/Oチェックアウト10：00
             ルームーキーはシリンダーキーとスティックキーの2種類スティックキーは電源のスイッチ用です。</p>
         </div>
         <div class="room_part">
-          <img src="img/internet.jpg" alt="">
+          <img src="img/internet.jpg" alt="ネットの画像">
           <h3>インターネット接続</h3>
           <p>インターネット接続は全客室に無線LAN（wifi）を装備。ご利用の際はパスワードが必要となります。ロビー・レストランも無線LAN（wifi）をご利用いただけます。</p>
         </div>
@@ -71,40 +71,40 @@
 
       <div class=room_type>
         <div class="room_part">
-          <img src="img/sgl.jpg" alt="">
+          <img src="img/sgl.jpg" alt="TWNルームの画像">
           <h3>SGL TWN</h3>
           <p>洋室TWN(SG)全75室をご用意ゆとりある客室です。</p>
           <p>広さ.27㎡　定員.2名</p>
           <p>ベッド.1,02cm×2,00cm</p>
         </div>
         <div class="room_part">
-          <img src="img/twn.jpg" alt="">
+          <img src="img/twn.jpg" alt="SEMIルームの画像">
           <h3>SEMI TWN</h3>
           <p>洋室TWN(SD)全18室をご用意広めのベッドで快適に睡眠できる客室です。</p>
           <p>広さ.27㎡　定員.2名</p>
           <p>ベッド.1,24cm×2,00cm</p>
         </div>
         <div class="room_part">
-          <img src="img/dbl.jpg" alt="">
+          <img src="img/dbl.jpg" alt="DBLルームの画像">
           <h3>DBL ROOM</h3>
           <p>DBL全6室をご用意ゆとりある客室です。</p>
           <p>広さ.27㎡　定員.2名</p>
           <p>ベッド.1,800×2,000</p>
         </div>
         <div class="room_part">
-          <img src="img/quad.jpg" alt="">
+          <img src="img/quad.jpg" alt="4人ルームの画像">
           <h3>QUAD ROOM</h3>
           <p>FirstFloor・SecondFloorに1室をご用意広めのベッドで快適に睡眠できる客室です。当ホテルに唯一1室ご用意。ご家族、グループでゆったり過ごせるお部屋です。</P>
           <P>広さ.54㎡　定員.4名</P>
           <P>ベッド.1,020×2,000</p>
         </div>
         <div class="room_part">
-          <img src="img/twn-cone.jpg" alt="">
+          <img src="img/twn-cone.jpg" alt="部屋設備の画像">
           <h3>部屋設備</h3>
           <p>液晶テレビ32型、ウォッシュレット、冷蔵庫、ドライヤー、ケトル、各種アメニティ、茶器セット、クローゼット、茶羽織、洗面台</P>
         </div>
         <div class="room_part">
-          <img src="img/dxtw.jpg" alt="">
+          <img src="img/dxtw.jpg" alt="シモンズベットの画像">
           <h3>シモンズベット</h3>
           <p>世界中で認められたクオリティ。シモンズベッドポケットコイルマットレスを用意しております。</P>
          

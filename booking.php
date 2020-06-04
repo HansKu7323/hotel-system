@@ -36,15 +36,15 @@
           <ul>
             <li>
               <label for="name">Name（必須）</label>
-              <input type="text" name="name" id="name">
+              <input type="text" name="name" id="name" placeholder="山田太郎">
             </li>
             <li>
               <label for="email">Email（必須）</label>
-              <input type="email" name="email" id="email">
+              <input type="email" name="email" id="email" placeholder="test01@gmail.com">
             </li>
             <li>
               <label for="telephone">Telephone（必須）</label>
-              <input type="text" name="telephone" id="telephone">
+              <input type="text" name="telephone" id="telephone" placeholder="080-1111-1111">
             </li>
             <li>
               <label for="address">Address</label>
@@ -64,7 +64,7 @@
               <ul>
                 <li>
                   <label for="people">人数（必須）</label>
-                  <input type="number" name="people" id="people" min="1" max="10">
+                  <input type="number" name="people" id="people" min="1" max="10" placeholder="選択して下さい">
                 </li>
                 <li>
                   <label for="arrive">チェックイン（必須）</label>

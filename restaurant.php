@@ -33,7 +33,7 @@
             <ul class="mainbox">
               <li class="mainbox_item">
                 <!-- <div class="imgbox">  -->
-                  <img src="img/rest1.jpg" alt="">
+                  <img src="img/rest1.jpg" alt="メインダイニングの画像">
                 <!-- </div> -->
               </li>
               <li class="mainbox_item">
@@ -63,15 +63,15 @@
 
           <h3>和洋食ビュッフェの写真</h3>
           <ul class="img_ul">
-            <li class="img_item"><img src="img/rest2.jpg" alt=""></li>
-            <li class="img_item"><img src="img/rest3.jpg" alt=""></li>
-            <li class="img_item"><img src="img/rest4.jpg" alt=""></li>
-            <li class="img_item"><img src="img/rest5.jpg" alt=""></li>
-            <li class="img_item"><img src="img/rest6.jpg" alt=""></li>
-            <li class="img_item"><img src="img/rest7.jpg" alt=""></li>
-            <li class="img_item"><img src="img/rest8.jpg" alt=""></li>
-            <li class="img_item"><img src="img/rest9.jpg" alt=""></li>
-            <li class="img_item"><img src="img/rest10.jpg" alt=""></li>
+            <li class="img_item"><img src="img/rest2.jpg" alt="ダイニングの食べ物の画像"></li>
+            <li class="img_item"><img src="img/rest3.jpg" alt="ダイニングの食べ物の画像"></li>
+            <li class="img_item"><img src="img/rest4.jpg" alt="ダイニングの食べ物の画像"></li>
+            <li class="img_item"><img src="img/rest5.jpg" alt="ダイニングの食べ物の画像"></li>
+            <li class="img_item"><img src="img/rest6.jpg" alt="ダイニングの食べ物の画像"></li>
+            <li class="img_item"><img src="img/rest7.jpg" alt="ダイニングの食べ物の画像"></li>
+            <li class="img_item"><img src="img/rest8.jpg" alt="ダイニングの食べ物の画像"></li>
+            <li class="img_item"><img src="img/rest9.jpg" alt="ダイニングの食べ物の画像"></li>
+            <li class="img_item"><img src="img/rest10.jpg" alt="ダイニングの食べ物の画像"></li>
           </ul>
       </main>
       
